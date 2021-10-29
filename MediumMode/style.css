@@ -1,0 +1,65 @@
+body {
+  background-image: url("C:/Users/User/Desktop/Full Stack Client/SelfProjects/images/games.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#goBack {
+  position: absolute;
+  right: 1.5%;
+  top: 12%;
+  font-size: 30px;
+  color: black;
+  background-color: bisque;
+  border-radius: 10px;
+}
+#msg {
+  position: absolute;
+  right: 7%;
+  top: 5%;
+  font-size: 30px;
+  background-color: black;
+  color: beige;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+}
+#newGame {
+  font-size: 30px;
+  background-color: bisque;
+  border-radius: 10px;
+  position: absolute;
+  right: 8%;
+  top: 20%;
+}
+@media only screen and (max-width: 500px) {
+  #goBack {
+    position: absolute;
+    left: 90%;
+    top: 130%;
+    font-size: 60px;
+    width: 400px;
+    color: black;
+    background-color: bisque;
+    border-radius: 10px;
+  }
+  #msg {
+    position: absolute;
+    right: 30%;
+    top: 130%;
+    font-size: 60px;
+    background-color: black;
+    color: beige;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  #newGame {
+    font-size: 60px;
+    background-color: bisque;
+    border-radius: 10px;
+    position: absolute;
+    left: 10%;
+    top: 160%;
+  }
+}
